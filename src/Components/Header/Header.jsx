@@ -5,7 +5,10 @@ import './Header.css'
 
 const Header = () => {
     return (
+        // Header area 
         <>
+            {/* Bootstrap responsive and Routing Header  */}
+
             <Navbar bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand className="fw-bold"> University of Michigan </Navbar.Brand>

@@ -4,6 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
+        // About us page container 
         <Container>
             <h1 className="text-center py-3">About Us</h1>
             <p className="mx-5">University of Michigan is one of the top graded government approved private universities in Bangladesh. Having fulfilled the requirements as laid down in the Private University Act of 1992, and after obtaining the necessary clearance from the University Grants Commission (UGC), and the permission of Government of Bangladesh (GOB) through the Ministry of Education, University of Michigan started functioning on February 11 1995. The credit for the idea of establishing this University goes to University of Michigan. University of Michigan framed its own Statues, Ordinances and Regulations governing the manifold activities of IIUC – academic, administrative, financial, student welfare, discipline etc. as per the Private University Act, 1992, 1998 and revised Act, 2010. Most statutory bodies formed under the provisions of the Act have since then been functioning.</p>

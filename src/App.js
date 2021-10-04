@@ -11,7 +11,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
+
+        {/* Header for all page */}
         <Header></Header>
+
+        {/* Route for not loading */}
         <Switch>
           <Route exact path="/"> <Home></Home> </Route>
           <Route exact path="/home"> <Home></Home> </Route>
@@ -21,6 +25,8 @@ function App() {
 
           <Route path="*"> <Oops></Oops> </Route>
         </Switch>
+
+        {/* Footer for all page */}
         <Footer></Footer>
       </BrowserRouter>
     </>
