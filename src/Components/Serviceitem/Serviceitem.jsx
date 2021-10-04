@@ -7,7 +7,7 @@ const Serviceitem = (props) => {
 
     return (
         <Col>
-            <Card>
+            <Card className="card">
                 <Card.Img variant="top" src={img} className="card-img" />
                 <Card.Body>
                     <Card.Title className="fw-bold">{title}</Card.Title>
