@@ -4,8 +4,10 @@ import Serviceitem from '../Serviceitem/Serviceitem';
 import './Home.css'
 
 const Home = () => {
+    // collect data from useatate 
     const [services, setServices] = useState([]);
 
+    // Take data using useeffect with fetch
     useEffect(() => {
         fetch('./servicehome.json')
             .then(res => res.json())
@@ -13,8 +15,10 @@ const Home = () => {
     }, []);
 
     return (
+        // Home page 
         <div>
             <Container>
+                {/* Home page slider container  */}
                 <Carousel className="p-3">
                     <Carousel.Item>
                         <img
@@ -41,6 +45,7 @@ const Home = () => {
             </Container>
 
             <Container>
+                {/* Proncipal guideline container  */}
                 <Row className="g-4 py-5 d-flex justify-content-center">
                     <div className="col-md-5"><h1 className="text-center py-3">Guidline <br /> from Principle</h1></div>
                     <div className="col-md-7">
@@ -54,8 +59,11 @@ const Home = () => {
             </Container>
             <Container>
                 <h1 className="text-center py-3">Our Service</h1>
+
+                {/* Bootstrap responise row */}
                 <Row xs={1} md={2} lg={4} className="g-4 py-4">
                     {
+                        // mappimg data from services 
                         services.map(service => <Serviceitem key={service.id} service={service}></Serviceitem>)
                     }
                 </Row>

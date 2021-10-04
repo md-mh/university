@@ -3,6 +3,8 @@ import { Container } from 'react-bootstrap';
 import './Footer.css'
 
 const Footer = () => {
+
+    // Footer area
     return (
         <div className="footer py-3">
             <Container>
