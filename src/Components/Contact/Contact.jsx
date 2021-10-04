@@ -28,8 +28,7 @@ const Contact = () => (
 
             <div className="">
                 <h2>Google Map Location</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14612.57529319585!2d90.43626032266361!3d23.70655748868884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1633340317753!5m2!1sen!2sbd" width="100%" height="350" style={{ border: 0 }}
-                    allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11808.089899535385!2d-83.7382241!3d42.2780436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ba14e5178e997e3!2sUniversity%20of%20Michigan!5e0!3m2!1sen!2sbd!4v1633350775451!5m2!1sen!2sbd" width="100%" height="350" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
             </div>
 
         </Row>
