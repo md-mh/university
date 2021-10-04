@@ -1,0 +1,26 @@
+[
+    {
+        "id": "101",
+        "title": "Borrowing Book",
+        "description": "You can borrow books located in the open stacks and reading rooms of the library. Newspapers and journals can be used only in the library. Call numbers of the books you need can be found in the e-catalogue ESTER. If you want to place hold on a book that has already been borrowed, request it via ESTER or ask for help from a librarian. You can borrow books if you are registered as a patron in University of Tartu library by using ID-card or patron card. To borrow a book please visit our service points on the 2nd and the 3rd floor or use our self-service machines.",
+        "img": "https://images.indianexpress.com/2018/05/library.jpg"
+    },
+    {
+        "id": "102",
+        "title": "Printing service",
+        "description": "Photocopies, scans and printouts can be made on the ground floor, 2nd floor or on the 3rd floor of the library. You can print from your computer or mobile device and securely retrieve your jobs from a public Print In City device. For self-service printing (incl. Cloud Print), photocopying and scanning you need to create a prepayment account tied to your Estonian ID-card or Tartu/Tallinn transport card. This can be done on the website Print in City.",
+        "img": "https://www.sheffield.ac.uk/polopoly_fs/1.521754!/image/MSP-printer-copy.png"
+    },
+    {
+        "id": "103",
+        "title": "WiFi",
+        "description": "University of Tartu offers a wireless internet service in most of its buildings, including the University of Tartu Library. Using of WiFi is free of charge for all users and visitors of the UT Library, the period of use is not limited. Two different WiFi networks can be found in the UT buildings",
+        "img": "https://www.it.miami.edu/_assets/images/WiFi-Signals-SQUARE.png"
+    },
+    {
+        "id": "104",
+        "title": "Student Gym",
+        "description": "Your university should have a student gym on campus, typically at a very affordable rate and conveniently located for dropping in before or after lectures. UvA’s gym offers individual training, classes, a fitness test, and has centers across UvA’s various campus locations.",
+        "img": "https://www.swansea.ac.uk/sport/health-and-fitness/memberships/student-membership.jpg"
+    }
+]

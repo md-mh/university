@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand>Logo</Navbar.Brand>
+                    <Navbar.Brand className="fw-bold"> IIUC </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

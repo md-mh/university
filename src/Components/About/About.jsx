@@ -17,9 +17,9 @@ const About = () => {
                 </div>
 
                 <div className="">
-                    <h2>Our Vission</h2>
+                    <h2>Our Vision</h2>
                     <p>
-                        Our Vission is to offer nationally competitive and internationally recognized opportunities for learning to make this University as the Centre of Excellence in different areas of scholarship, like Shari’ah and Islamic Studies, Business Studies, Social Science, Science & Engineering, Arts & Humanities, Law, and such other faculties that will be introduced in future. Its door is open to the admission seekers from all over the world, regardless of race, region and religion. This university cherished the dream of becoming one of the highest seat of learning and creator of knowledge in the South East Asia.
+                        Our Vision is to offer nationally competitive and internationally recognized opportunities for learning to make this University as the Centre of Excellence in different areas of scholarship, like Shari’ah and Islamic Studies, Business Studies, Social Science, Science & Engineering, Arts & Humanities, Law, and such other faculties that will be introduced in future. Its door is open to the admission seekers from all over the world, regardless of race, region and religion. This university cherished the dream of becoming one of the highest seat of learning and creator of knowledge in the South East Asia.
                     </p>
                 </div>
 

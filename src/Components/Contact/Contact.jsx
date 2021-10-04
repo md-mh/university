@@ -18,8 +18,9 @@ const Contact = () => (
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter your email" />
                 </Form.Group>
+
+                <Form.Label>Textarea</Form.Label>
                 <FloatingLabel controlId="floatingTextarea" label="Comments" className="mb-3">
-                    <Form.Label>Textarea</Form.Label>
                     <Form.Control as="textarea" placeholder="Leave a comment here" style={{ height: '150px' }} />
                 </FloatingLabel>
                 <Button variant="primary" type="submit"> Submit </Button>

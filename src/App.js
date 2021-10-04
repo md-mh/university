@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Oops from './Components/Oops/Oops';
-import Service from './Components/Service/Service';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/"> <Home></Home> </Route>
           <Route exact path="/home"> <Home></Home> </Route>
-          <Route exact path="/service"> <Service></Service> </Route>
+          <Route exact path="/service"> <Services></Services> </Route>
           <Route exact path="/about"> <About></About> </Route>
           <Route exact path="/contact"> <Contact></Contact> </Route>
 
